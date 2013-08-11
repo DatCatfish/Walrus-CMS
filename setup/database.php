@@ -6,7 +6,6 @@
  * All source is licensed under the GNU Public License (GNU):
  * https://gnu.org/licenses/gpl.html
  */
-
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +15,7 @@
     <title>Walrus CMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
     <script src="../js/bootstrap.js"></script>
 </head>
 
@@ -41,6 +41,7 @@
                 <label for="inputDbUser" class="col-lg-2 control-label">Database username: </label>
                 <div class="col-lg-10">
                     <input type="text" class="form-control" id="inputDbUser" placeholder="Database username">
+                    <span class="glyphicon-warning-sign"></span>
                 </div>
             </div>
             <div class="form-group">
